@@ -1,0 +1,31 @@
+* Preamble                                                         :noexport:
+#+TITLE:
+#+SUBJECT: 
+#+AUTHOR: 
+#+CLOSING: Mit freundlichen Grü\ss{}en,
+#+SIGNATURE: Aaron Rebmann
+#+PLACE:
+#+LCO: DINmtext
+# NOTE: Check the KOMA-Script manual to find a LCO that fits the
+#       envelope standards of your country.
+
+# NOTE: Change the order of the backletter, use smart quotes and
+#       include backaddress
+#+OPTIONS: after-closing-order:(my_after_signature ps cc encl)
+#+options: ':t backaddress:t subject:centered
+
+# Remove the first header
+#+LATEX_CLASS: my-letter
+#+LATEX_HEADER: \setkomavar{firsthead}{}
+
+* To-Address                                                             :to:
+# NOTE: Explicit newlines are not necessary in TO and FROM
+
+
+* From                                                                 :from:
+
+
+
+* Sehr geehrte Damen und Herren,
+# NOTE: Your letter is the first non-special heading.  The title of
+# this heading may used as an opening.
